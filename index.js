@@ -19,7 +19,8 @@ function createDriver(){
   let driverId = 0;
   
   return class {
-    constructor(driverId){
+    constructor(name){
+      this.name = name;
       this.driverId = ++driverId;
     }
   };
