@@ -3,7 +3,7 @@ function produceDrivingRange(maxBlocks){
     if (blocks > maxBlocks){
       return false;
     }else {
-      return 1;
+      return true;
     }
   };
 }
