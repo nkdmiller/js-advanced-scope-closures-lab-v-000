@@ -1,7 +1,7 @@
 function produceDrivingRange(maxBlocks){
   return function(blocks){
     if (blocks > maxBlocks){
-      return `${blocks}`;
+      return `${Math.abs(blocks - maxBlocks} out of range`;
     }else {
       return true;
     }
