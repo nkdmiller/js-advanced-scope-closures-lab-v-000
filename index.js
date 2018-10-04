@@ -9,3 +9,8 @@ function produceDrivingRange(maxBlocks){
       }
     };
   }
+function produceTipCalculator(rate){
+  return function(total){
+    return total * rate;
+  };
+}
