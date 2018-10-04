@@ -3,7 +3,7 @@ function produceDrivingRange(maxBlocks){
     if (Math.abs(blocks1.slice('t')[0] - blocks2.slice('th')[0]) > maxBlocks){
       return false;
     }else {
-      return Math.abs(blocks1.slice('t')[0];
+      return Math.abs(blocks1.slice('t')[0]);
     }
   };
 }
